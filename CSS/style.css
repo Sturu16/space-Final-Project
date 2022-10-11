@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    padding: 44px 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+.indexheader{
+    background-color: rgba(0, 0,0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+header ul{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+header ul a{
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.indexheader a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.corona a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.myactive::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+main{
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+}
+main .contactinfo{
+    color:#ffffff;
+    margin-top: 150px;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+.map{
+   padding: 10px 20px;
+}
+.nasavideo{
+    width: 700px;
+    height: 68vh;
+}
+.nasaimg{
+    padding: 10px 20px;
+    width: 600px;
+    height: 60vh;
+}
+.link2{
+    color: #ffffff;
+}
+.planet{
+    background-image: url(../img/Screens.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.planeto{
+    color: #ffffff;
+    text-decoration: none;
+}
+.planeto:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.plimgi{
+    background-image: url(../img/planet.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.plimg{
+    margin-top: -400px;
+    margin-left: 550px;
+    height: 60vh;
+}
+main .pl{
+    color: #ffffff;
+    margin-top: 110px;
+    padding: 10px;
+}
+main .pla{
+    color: #ffffff;
+    margin-top: -10px;
+    padding: 10px;
+    width: 500px;
+}
+main .pl1{
+    color: #ffffff;
+    margin-left: 960px;
+    margin-top: -350px;
+  
+}
+main .pla2{
+    color: #ffffff;
+    width: 550px;
+    margin-left: 960px;
+    margin-top: 10px;
+}
+.link1{
+    color: #3f36f7;
+}
+.link1:hover{
+    color: #ffffff;
+    text-decoration:none;
+}
+.moon{
+    background-color: #000000;
+}
+.moonbase1{
+    width: 700px;
+    height: 50vh;
+    margin-top: -400px;
+    margin-left: 900px;
+
+}
+.moonbase2{
+    padding: 10px;
+    width: 400px;
+    height: 40vh;
+    margin-left: 16px;
+    overflow: hidden;
+}
+.moonbase3{
+    padding: 10px;
+    width: 400px;
+    height: 40vh; 
+    margin-left: 570px;
+    margin-top: -826px;
+    overflow: hidden;
+}
+.moonbase4{
+    padding: 10px;
+    width: 400px;
+    height: 45vh; 
+    margin-left: 1100px;
+    margin-top: -844px;
+    overflow: hidden;
+}
+.moo{
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 16px;
+}
+
+.moo1{
+    padding: 10px;
+    color: #ffffff;
+    width: 400px;
+    margin-left: 16px;
+}
+.mon{
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 570px;
+    margin-top: -260px;
+}
+.mon1{
+    padding: 10px;
+    color: #ffffff;
+    width: 400px;
+    margin-left: 570px;
+}
+.mof{
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 1100px;
+    margin-top: -260px;
+}
+.mof1{
+    padding: 10px;
+    color: #ffffff;
+    width: 400px;
+    margin-left: 1100px;
+}
+.min{
+    width: 100%;
+    margin-top: -4px;
+
+}
+.an{
+    color: #ffffff;
+    padding: 20px; 
+}
+.ang{
+    color: #ffffff;
+    padding: 20px; 
+    width: 650px;
+}
+.stem{
+    background-image: url(../img/Screensh.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bo4{
+    margin-top: 20px;
+    width: 700px;
+    padding: 20px;
+    color: #ffffff;
+    
+}
+.bo3{
+    margin-top: 46px;
+    width: 700px;
+    padding: 20px;
+    color: #ffffff;
+    
+}
+.bmg{
+    width: 800px;
+    height: 54vh;
+    margin-top: -400px;
+    margin-left:700px;
+}
+.lg{
+    color: #ffffff;
+    margin-top: 94px;
+    padding: 10px;
+}
+.ln{
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+}
+.yeh{
+    color: #fff;
+    margin: -156px auto;
+    padding: 10px;
+    width: 1500px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+.img1{
+    margin-top: 470px;
+    width: 100%;
+    height: 40vh;
+}
+.research{
+    background-image: url(../img/Scr0\ 192345.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* .researchimage{
+    width: 1500px;
+    height: 260px;
+    background-color: #3f36f7;
+    margin: 130px auto;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.researchimage img{
+    width: 100%;
+} */
+.demo{
+    width: 1500px;
+    height: 260px;
+    margin: 100px auto;
+    margin-left: 500px;
+    margin-bottom: 0;
+    overflow: hidden;
+    font-size: 70px;
+    color: #ffffff;
+}
+.about{
+    background-image: url(../img/Screenshot\ 2png.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.myslider{
+    position: absolute;
+    top: 14px;
+    height: 640px;
+    left: 0;
+    /* margin-left: -600px; */
+    width: 100%;
+}
+.myvideo{
+    width: 100%;
+}
+.item h2{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 300px;
+}
+.item p{
+    width: 200px;
+    margin: 50px auto;
+    text-align: center;
+}
+.item p a{
+    padding: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.mrchat{
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: #de7600;
+    color: #ffffff;
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+}
+.mrchat:hover{
+    background-color: #b96300;
+    cursor: pointer;
+}
+.messagebox{
+    width: 300px;
+    background-color: #de7600;
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+    display: none;
+}
+.messageboxheader{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b96300;
+}
+.messageboxheader .msgbxheadertext{
+    font-size: 10px;
+}
+.fa-xmark{
+    padding: 5px;
+}
+.fa-xmark:hover{
+    color: #343434;
+    cursor: pointer;
+}
+.messageboxform{
+    padding: 20px;
+}
+.messageboxform input, .messageboxform textarea{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000000;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+.messagebox input::-webkit-input-placeholder, .messagebox textarea::-webkit-input-placeholder{
+    color: #000000;
+}
+
+.messagebox input::-moz-placeholder, .messagebox textarea::-moz-placeholder{
+    color: #000000;
+}
+
+.messagebox input:-ms-input-placeholder, .messagebox textarea:-ms-input-placeholder{
+    color: #000000;
+}
+
+.messagebox input::-ms-input-placeholder, .messagebox textarea::-ms-input-placeholder{
+    color: #000000;
+}
+
+.messagebox input::placeholder, .messagebox textarea::placeholder{
+    color: #000000;
+}
+.messageboxform textarea{
+    resize: none;
+}
+
+.gagzavna p{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #007c17;
+    color: #ffffff;
+}
+.gagzavna p:hover{
+    background-color: #005710;
+    cursor: pointer;
+}
+.example {
+    display: grid;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: linear-gradient(to bottom, white, black);
+}
+
+footer{
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.indexfooter{
+    background-color: rgba(0, 0,0, 0.5);
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+}
+.indexfooter a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+section ul li a{
+        font-size: larger;
+        padding: 8px 10px;
+        color: hsl(0, 0%, 100%);
+        margin: 0 auto;
+        
+}
+.facebook{
+     width: 30px;
+    height:30px;   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.instagram{
+    width: 34px;
+    height:34px;   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.facebook{  
+    background-image: url(../img/fb.png);
+ 
+}
+.instagram{
+    background-image: url(../img/Instagram-Logo-PNG.png);
+
+}  
+.facebook a{
+    display: block;
+    width: 30px;
+    height:30px;   
+}
+.instagram a{
+    display: block;
+    width: 34px;
+    height:34px;   
+}
+/* ruka chati  5 gverdi */
